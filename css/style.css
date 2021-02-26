@@ -1,0 +1,33 @@
+body, html {
+    height: 90%;
+    margin: 0;
+    background-image: url(/img/day1-take-home-small.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;   
+}
+
+.right {
+    color: ;
+    text-align: right;
+}
+
+.top-text {
+    text-align: center;
+    position: relative;
+    top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: white;
+  }
+
+  h2 {
+      color: #3B868F;
+  }
+
+  .text-box {
+      position: relative;
+      top: 35%;
+      margin-left: 200px;
+      margin-right: 200px;
+  }
