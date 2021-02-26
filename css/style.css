@@ -1,11 +1,11 @@
-body, html {
+/* body, html {
     height: 90%;
     margin: 0;
     background-image: url(/img/day1-take-home-small.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;   
-}
+} */
 
 .right {
     color: ;
@@ -30,4 +30,22 @@ body, html {
       top: 35%;
       margin-left: 200px;
       margin-right: 200px;
+  }
+
+  @media only screen and (min-width: 480px) {
+    header {
+        background-color: cadetblue;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    header {
+        background-color: darkcyan;
+    }
+  }
+
+  @media only screen and (min-width: 1024px) {
+    header {
+        background-color: gray;
+    }
   }
